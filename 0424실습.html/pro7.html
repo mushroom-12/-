@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1408서온유</title>
+    <style>
+        img {
+            height: 300px;
+        }
+        hr {
+            border:5px dashed blueviolet;
+        }
+        span{background-color: blueviolet;}
+        h2, footer{text-align: center;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2><span>회원가입화면</span></h2>
+        <hr>
+    </header>
+    <section>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>기본 정보</legend>
+                    아이디:<input type="text"><br>
+                    패스워드:<input type="password"><br>
+                    이름:<input type="text" maxlength="10"><br>
+                    생일:<input type="date"><br>
+                    이메일주소:<input type="email" placeholder="id@host"><br>
+                    <select>
+                        <option value="1">서울특별시</option>
+                        <option value="2">대전광역시</option>
+                        <option value="3">제주특별자치도</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>취미</legend>
+                    <label>
+                        <input type="radio" name="hobby" value="1">게임
+                        <img src="7장게임.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="hobby" value="2">등산
+                        <img src="7장하이킹.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="hobby" value="3">골프
+                        <img src="7장골프.png">
+                    </label>
+                </fieldset>
+                <input type="submit" value="가입">
+                <input type="reset" value="취소">
+            </form>
+        </article>
+    </section>
+    <footer><span>&copy;gsm highscool 2025 sep</span></footer>
+</body>
+
+</html>
