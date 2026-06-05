@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기술 목록</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header{
+            background-color: rgb(1, 0, 72);
+            text-align: center;
+            padding: 20px;
+        }
+        header ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            display: inline-block;
+            margin-right: 20px; 
+        }
+        header ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        
+        header ul li a:hover{
+            background-color: skyblue;
+            color: rgb(1, 0, 72);
+        }
+
+        
+        section{
+            width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        h1{
+            border-bottom: 2px solid rgb(1, 0, 72);
+            padding-bottom: 10px;
+            color: #1e293b;
+        }
+
+        
+        .tech{
+            background-color: white;
+            margin-top: 20px;
+            padding: 15px;
+            border-left: 5px solid #38bdf8;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+        }
+        .tech h3{
+            margin-top: 0;
+            color: #334155;
+        }
+
+        @keyframes colorChange{
+            33%{color:blue;}
+            66%{color:green;}
+            99%{color:red;}
+            }
+        span{
+                animation-name:TCA;
+                animation-duration:5s;
+                animation-iteration-count:infinite;
+            }
+        .ani{
+            animation: colorChange 5s infinite;
+            font-weight: bold;
+        }
+
+        
+        footer{
+            background-color: rgb(1, 0, 72);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="메인페이지.html">메인 페이지</a></li>
+                <li><a href="프로젝트목록.html">프로젝트 목록</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>기술 목록</h1>
+
+        <div class="tech">
+            <h3>
+                <span class="ani">HTML5 / CSS3</span>
+            </h3>
+            <p>
+                HTML5의 시멘틱 태그를 정확히 이해하고 웹사이트의 구조를 명확하게 설계할 수 있습니다. CSS3의 다양한 속성과 애니메이션 키프레임을 활용하여 동적이고 시각적으로 매력적인 UI를 구현해 본 경험이 있습니다. 웹 표준을 준수하며 CSS Box-model에 대한 깊은 이해를 바탕으로 레이아웃을 안정적으로 배치할 수 있습니다.
+            </p>
+        </div>
+
+        <div class="tech">
+            <h3>Python(파이썬)</h3>
+            <p>
+                파이썬(Python) AI 기술은 인공지능 솔루션 개발에 파이썬 언어를 적용하는 기술입니다. 다른 프로그래밍 언어보다 훨씬 배우기 쉽고, 강력한 확장성 덕분에 머신러닝, 딥러닝, 데이터 분석에 이르는 AI 생태계의 핵심 언어로 자리 잡고 있습니다.
+            </p>
+        </div>
+
+        <div class="tech">
+            <h3>Numpy(넘파이)</h3>
+            <p>
+                컴포넌트 기반 설계를 통해 재사용 가능한 UI를 개발하고, Hooks를 활용하여 상태 및 라이프사이클을 효율적으로 관리할 수 있습니다. 가상 DOM의 작동 원리를 이해하고 있어 렌더링 성능 최적화를 고려한 웹 애플리케이션을 구축한 경험이 있으며, 라우터 처리를 통해 싱글 페이지 애플리케이션을 성공적으로 구현했습니다.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        본 페이지의 저작권은 서온유 에게 있습니다. All rights reserved.
+    </footer>
+
+</body>
+</html>

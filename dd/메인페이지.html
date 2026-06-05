@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포트폴리오 - 메인 페이지</title>
+    <style>
+        * {
+            box-sizing: border-box; 
+        }
+        body {
+            font-family: sans-serif;
+            margin: 0; 
+            padding: 0;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgb(1, 0, 72); 
+            text-align: center;
+            padding: 20px;
+        }
+        header ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            display: inline-block;
+            margin-right: 20px; 
+        }
+        header a {
+            color: #e2e8f0; 
+            text-decoration: none; 
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        header a:hover {
+            background-color: skyblue;
+            color: rgb(1, 0, 72); 
+        }
+        section {
+            width: 800px;
+            margin: 0 auto; 
+            padding: 30px;
+        }
+        .page-title {
+            border-bottom: 2px solid rgb(1, 0, 72); 
+            padding-bottom: 10px;
+            color: #1e293b;
+        }
+        .photo-box {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .my-photo {
+            width: 200px;
+            height: 200px;
+            background-color: #4a80ce;
+            border: 5px solid blue; 
+            box-shadow: 4px 4px 5px gray; 
+        }
+        .sub-title {
+            color: blue;
+            margin-top: 30px;
+        }
+        ul.career-list {
+            list-style-type: square; 
+            line-height: 2; 
+        }
+        footer {
+            background-color: rgb(1, 0, 72); 
+            color: #e2e8f0; 
+            text-align: center; 
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><a href="projects.html">프로젝트 목록</a></li>
+            <li><a href="tech.html">기술 목록</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2 class="page-title">메인 페이지</h2>
+        
+        <div class="photo-box">
+            <img src="서온유222.jpg" alt="사진" class="my-photo">
+        </div>
+
+        <h3 class="sub-title">자기소개</h3>
+        <p>
+            안녕하세요, 발전을 멈추지 않는 AI 개발자 서온유입니다. 저는 지금까지 다양한 AI 기술들을 깊이 있게 배워왔는데요. 먼저 AI 프로그래밍의 가장 튼튼한 기초가 되는 Python 언어를 마스터했습니다. 또한 실제 AI 모델을 만들 때 필수적으로 자주 사용하는 파이썬 핵심 라이브러리인 Numpy와 Pytorch를 다루는 방법을 완벽하게 익혔으며, 인공지능이 동작하는 원리와 기본적인 이론까지 꼼꼼하게 배웠습니다. 이러한 전문 기술과 탄탄한 지식을 바탕으로 저는 여러 가지 의미 있는 AI 프로젝트를 주도적으로 기획하고 성공적으로 진행해 왔습니다. 앞으로도 세상을 이롭게 하는 인공지능 서비스를 만들어내는 개발자로 성장하겠습니다.
+        </p>
+
+        <h3 class="sub-title">경력 사항</h3>
+        <ul class="career-list">
+            <li>광주소프트웨어마이스터고등학교 재학</li>
+            <li>광주소프트웨어마이스터고 전공동아리 아잉 소속</li>
+            <li>광주과학기술원 GIST 대학에서 디지털 트윈(DT) 강의 수강</li>
+        </ul>
+    </section>
+
+    <footer>
+        카피라이트 서온유 All rights reserved.
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFORM</title>
+    <style>
+        div{
+            display:inline-block;
+            padding:5px;
+            color:white;
+            background:olive;
+        }
+        #rotate{
+            transform: rotate(90deg)
+        }
+        #skew{
+            transform: skew(45deg, -45deg)
+        }
+        #translate{
+            transform: translate(30px, 100px)
+        }
+        #scale{
+            transform: scale(1.5deg, 2deg)/*deg를 붙여야 하지만 translate는 px로 넣어야 작동이 된다*/
+        }
+    </style>
+</head>
+<body>
+    <div id = "rotate">
+        rotate(90)
+    </div>
+    <div id="skew">
+        skew(45, -45)
+    </div>
+    <div id="translate">
+        translate(30, 100)
+    </div>
+    <div id="scale">
+        scale(1.5, 2)
+    </div>
+</body>
+</html>
