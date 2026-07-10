@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기술 목록</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header{
+            background-color: rgb(1, 0, 72);
+            text-align: center;
+            padding: 20px;
+        }
+        header ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            display: inline-block;
+            margin-right: 20px; 
+        }
+        header ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        
+        header ul li a:hover{
+            background-color: skyblue;
+            color: rgb(1, 0, 72);
+        }
+
+        
+        section{
+            width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        h1{
+            border-bottom: 2px solid rgb(1, 0, 72);
+            padding-bottom: 10px;
+            color: #1e293b;
+        }
+
+        
+        .tech{
+            background-color: white;
+            margin-top: 20px;
+            padding: 15px;
+            border-left: 5px solid #38bdf8;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+        }
+        .tech h3{
+            margin-top: 0;
+            color: #334155;
+        }
+
+        @keyframes colorChange{
+            33%{color:blue;}
+            66%{color:green;}
+            99%{color:red;}
+            }
+        span{
+                animation-name:TCA;
+                animation-duration:5s;
+                animation-iteration-count:infinite;
+            }
+        .ani{
+            animation: colorChange 5s infinite;
+            font-weight: bold;
+        }
+
+        
+        footer{
+            background-color: rgb(1, 0, 72);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="메인 웹페이지.html">메인 페이지</a></li>
+            <li><a href="프로젝트 목록 웹페이지.html">프로젝트 목록</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h1>기술 목록</h1>
+
+        <div class="tech">
+            <h3>
+                <span class="ani">HTML5 / CSS3</span>
+            </h3>
+            <p>
+                HTML5와 CSS3는 현대 웹 개발의 핵심 기술로, 웹 문서의 구조와 레이아웃을 담당합니다. HTML5는 웹페이지의 '뼈대'와 '의미'를 정의하고, CSS3는 HTML로 만들어진 웹페이지 구조에 색상, 글꼴, 레이아웃 등 '디자인'과 '시각적 표현'을 추가하고, 제어합니다.
+            </p>
+        </div>
+
+        <div class="tech">
+            <h3>Python(파이썬)</h3>
+            <p>
+                파이썬(Python) AI 기술은 인공지능 솔루션 개발에 파이썬 언어를 적용하는 기술입니다. 다른 프로그래밍 언어보다 훨씬 배우기 쉽고, 강력한 확장성 덕분에 머신러닝, 딥러닝, 데이터 분석에 이르는 AI 생태계의 핵심 언어로 자리 잡고 있습니다.
+            </p>
+        </div>
+
+        <div class="tech">
+            <h3>Numpy(넘파이)</h3>
+            <p>
+                넘파이(NumPy)는 일반적인 파이썬에서는 불가능한 대규모 다차원 배열과 행렬 연산을 보다 더 빠르고 효율적으로 처리하기 위한 핵심 수치 연산 라이브러리입니다. 데이터 분석, 머신러닝, 인공지능 분야의 필수 도구로써 AI 분야에서 자주 활용됩니다.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        카피라이트 서온유 All rights reserved.
+    </footer>
+</body>
+</html>
